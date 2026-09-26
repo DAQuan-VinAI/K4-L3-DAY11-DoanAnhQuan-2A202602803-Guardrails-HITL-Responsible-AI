@@ -1,0 +1,17 @@
+{
+  "total_requests": 35,
+  "blocked_requests": 19,
+  "block_rate": 0.5428571428571428,
+  "rate_limit_hits": 5,
+  "judge_checks": 0,
+  "judge_fails": 0,
+  "judge_fail_rate": 0.0,
+  "alerts": [
+    {
+      "metric": "block_rate",
+      "value": 0.5428571428571428,
+      "threshold": 0.5,
+      "message": "Block rate 54% exceeds 50% — possible attack wave or guardrails too strict."
+    }
+  ]
+}
